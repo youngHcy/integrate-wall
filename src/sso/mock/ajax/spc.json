@@ -1,0 +1,46 @@
+{
+	"status": 0,
+	"data": {
+		"zanbutton": {
+			"name": "zanbutton.jpg",
+			"url": "http:\/\/10.36.176.18:8686\/cps\/wdownload\/zanbutton.jpg\/bridge\/zanbutton.jpg?"
+		},
+		"zanimg": [{
+			"name": "zanimg0.jpg",
+			"url": "http:\/\/10.36.176.18:8686\/cps\/wdownload\/zanimg0.jpg\/bridge\/zanimg0.jpg?"
+		}, {
+			"name": "zanimg1.jpg",
+			"url": "http:\/\/10.36.176.18:8686\/cps\/wdownload\/zanimg1.jpg\/bridge\/zanimg1.jpg?"
+		}, {
+			"name": "zanimg2.jpg",
+			"url": "http:\/\/10.36.176.18:8686\/cps\/wdownload\/zanimg2.jpg\/bridge\/zanimg2.jpg?"
+		}, {
+			"name": "zanimg3.jpg",
+			"url": "http:\/\/10.36.176.18:8686\/cps\/wdownload\/zanimg3.jpg\/bridge\/zanimg3.jpg?"
+		}],
+		"visitorimg": [{
+			"name": "visitor0.jpg",
+			"url": "http:\/\/10.36.176.18:8686\/cps\/wdownload\/visitor0.jpg\/bridge\/visitor0.jpg?"
+		}, {
+			"name": "visitor1.jpg",
+			"url": "http:\/\/10.36.176.18:8686\/cps\/wdownload\/visitor1.jpg\/bridge\/visitor1.jpg?"
+		}, {
+			"name": "visitor2.jpg",
+			"url": "http:\/\/10.36.176.18:8686\/cps\/wdownload\/visitor2.jpg\/bridge\/visitor2.jpg?"
+		}, {
+			"name": "visitor3.jpg",
+			"url": "http:\/\/10.36.176.18:8686\/cps\/wdownload\/visitor3.jpg\/bridge\/visitor3.jpg?"
+		}],
+		"waterimglist": [{
+			"name": "default",
+			"title": "\u6d4b\u8bd5",
+			"url": "http:\/\/10.36.176.18:8686\/cps\/wdownload\/default.jpg\/bridge\/default.jpg?"
+		}, {
+			"name": "water_nuomi",
+			"title": "\u767e\u5ea6\u7cef\u7c73",
+			"url": "http:\/\/10.36.176.18:8686\/cps\/wdownload\/water_nuomi.jpg\/bridge\/water_nuomi.jpg?"
+		}],
+		"fanico": "http://10.92.243.27:8083/cps/wdownload/fanico.png/live-file/fanico.png?",
+		"status": 0
+	}
+}

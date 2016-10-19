@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <title>创建页面</title>
+
+</head>
+<body>
+<div class="home" id="home">
+    <v-top :login-data=loginData></v-top>
+    <v-slider :slider-data=sliderData></v-slider>
+    <div class="main_area">
+        <!--<v-historynav :history-nav=historyNav></v-historynav>-->
+        <v-historylist :history-list=historyList :page-active=pageActive></v-historylist>
+
+        <v-page :current-page="currentPage" :total-page="totalPage"></v-page>
+    </div>
+    <v-dialog :modal=modal :video-data=videoData></v-dialog>
+    <v-toast :toast-ctrl="toastCtrl"></v-toast>
+</div>
+
+
+</body>
+</html>

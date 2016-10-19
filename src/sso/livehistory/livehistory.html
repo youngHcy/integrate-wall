@@ -1,0 +1,24 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>历史直播</title>
+</head>
+<body>
+
+<div class="home" id="home">
+    <v-top :login-data=loginData></v-top>
+    <v-slider :slider-data=sliderData></v-slider>
+    <div class="main_area">
+        <v-filter :title="'直播列表'" :status-list="filterStatusList"></v-filter>
+        <v-judge-table></v-judge-table>
+        <v-page :current-page="currentPage" :total-page="totalPage"></v-page>
+    </div>
+    <v-toast :toast-status="toastStatus" :toast-show="toastShow" v-on:close-toast="handleCloseToast"></v-toast>
+    <v-message></v-message>
+</div>
+
+</body>
+</html>

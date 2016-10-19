@@ -1,0 +1,104 @@
+@screen-sm-min: 360px;
+@screen-md-min: 650px;
+
+.advertise-banner {
+    position: fixed;
+    bottom: 0;
+    background-color: #0a0e11;
+    height: 2rem;
+    width: 100%;
+
+    .left {
+        float: left;
+    }
+
+    .right {
+        float: right;
+    }
+
+    .vertical-middle-container {
+        height: 100%;
+        display: inline-block;
+
+        &:after {
+            display: inline-block;
+            *display: inline;
+            *zoom: 1;
+            width: 0;
+            height: 100%;
+            vertical-align: middle;
+            content: '';
+        }
+
+        span {
+            display: inline-block;
+            *display: inline;
+            *zoom: 1;
+            width: 0;
+            height: 100%;
+            vertical-align: middle;
+        }
+
+        p {
+            display: inline-block;
+            *display: inline;
+            *zoom: 1;
+            vertical-align: middle;
+        }
+    }
+
+    .download-btn {
+        text-align: center;
+        float: right;
+        background: none;
+        border: none;
+        color: #ff2244;
+        font-size: 16px;
+        border: 1px solid #ff2244;
+        border-radius: 1.5rem;
+        padding: 0.2rem 0rem;
+        width: 2.5rem;
+    }
+
+    .close-btn {
+        float: left;
+        width: 0.6rem;
+    }
+
+    .logo {
+        float: left;
+        width: 1.5rem;
+    }
+
+    p {
+        display: inline-block;
+        color: white;
+    }
+
+    .p1 {
+        margin-left: 0.1rem;
+        margin-bottom: 0;
+        font-size: 16px;
+        width: 4.3rem;
+    }
+
+    @media (max-width: @screen-sm-min) {
+        .p1 {
+            font-size: 12px;
+        }
+
+        .download-btn {
+            font-size: 14px;
+        }
+    }
+
+    @media (min-width: @screen-md-min) {
+        .p1 {
+            font-size: 22px;
+        }
+
+        .download-btn {
+            font-size: 26px;
+        }
+    }
+}

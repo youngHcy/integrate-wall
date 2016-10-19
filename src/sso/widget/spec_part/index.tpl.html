@@ -1,0 +1,154 @@
+<button type="button" class="btn btn-info">申请个性化配置</button>
+
+
+<div class="spec-content hidden">
+    <ul v-if="speclist">
+        <li class="clearfix">
+            <div class="left-part">
+                <div><h4>点赞按钮 <span class="red">*</span></h4></div>
+                <p class="bg-warning">20k以内支持PNG\JPG格式</p>
+            </div>
+            <div class="left-part-2">
+                <div class="img-container">
+                    <div class="imgbox">
+                        <form id="buttonform" class="field fixbox" autocomplete="on">
+                            <img class="img-responsive" alt="Responsive image" v-if="speclist.zanbutton"
+                                 :src=speclist.zanbutton.url>
+                            <input name="filekey" v-on:change="setBlogrollImageName($event)" class="upmask
+                thumb_mask" type="file"/>
+                            <input name="name" class="p_name hide" value="{{speclist.zanbutton.name}}">
+                            <input type="submit" class="hide s_btn">
+                            <span class="errorInfo dre_left ml_10"></span>
+                        </form>
+                    </div>
+                    <p class="bg-warning  warn-box">点击选框替换</p>
+                </div>
+            </div>
+        </li>
+        <li class="clearfix">
+            <div class="left-part">
+                <div><h4>‘赞’图形 <span class="red">*</span></h4></div>
+                <p class="bg-warning warn-box">20k以内支持PNG\JPG格式</p>
+            </div>
+            <div class="left-part-2">
+                <ul class="thumbsUpBox humbsUpBox" v-if="speclist.zanimg">
+                    <li v-for="(index, item) in speclist.zanimg" class="img-container">
+                        <div class="imgbox">
+                            <form class="field fixbox" autocomplete="on">
+                                <img name="thumbsUp{{index}}" :src="item.url"/>
+                                <input name="filekey" v-on:change="setBlogrollImageName($event)"
+                                       class="upmask headmask " type="file"/>
+                                <input class="p_name hide" name="name" value="{{item.name}}">
+                                <div class="getdataurl hide"></div>
+                                <input type="submit" class="hide s_btn">
+                            </form>
+                        </div>
+                        <p class="bg-warning warn-box">点击选框替换</p>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li class="clearfix">
+            <div class="left-part">
+                <div><h4>观众头像 <span class="red">*</span></h4></div>
+                <p class="bg-warning">20k以内支持PNG\JPG格式</p>
+            </div>
+            <div class="left-part-2">
+                <ul class="clearfix headerbox" v-if="speclist.visitorimg">
+                    <li v-for="(index, item) in speclist.visitorimg" class="img-container">
+                        <div class="imgbox">
+                            <form class="field  fixbox" autocomplete="on">
+
+                                <img name="thumbsUp{{index}}" :src="item.url"/>
+                                <input name="filekey" v-on:change="setBlogrollImageName($event)"
+                                       class="upmask headmask " type="file"/>
+                                <input class="p_name hide" name="name" value="{{item.name}}">
+                                <div class="getdataurl hide"></div>
+                                <input type="submit" class="hide s_btn">
+
+                            </form>
+                        </div>
+                        <p class="bg-warning  warn-box">点击选框替换</p>
+                    </li>
+
+                </ul>
+            </div>
+
+
+        </li>
+        <li class="clearfix">
+            <div class="left-part">
+                <div><h4>视频水印 <span class="red">*</span></h4></div>
+                <p class="bg-warning">20k以内支持PNG\JPG格式</p>
+            </div>
+            <div class="left-part-2">
+                <div class="img-container">
+                    <div class="imgbox dre_left water-img-back">
+                        <img class="waterimg" :src="waterimg">
+                    </div>
+                    <select id="waterform" class="form-control" v-if="speclist.waterimglist" name="roomid">
+                        <option v-for="(index, item) in speclist.waterimglist" data-watername={{item.title}} data-url={{item.url}} data-name={{item.name}} value="{{item.titme}}">
+                            {{ item.title }}
+                        </option>
+                    </select>
+                </div>
+            </div>
+        </li>
+        <li class="clearfix">
+            <div class="left-part">
+                <div><h4>垂类入口</h4></div>
+                <p class="bg-warning">20k以内支持PNG\JPG格式</p>
+            </div>
+            <div class="left-part-2">
+                <div class="img-container">
+                    <div class="imgbox">
+                        <form id="fanicoform" class="field fixbox">
+                            <img class="img-responsive" alt="Responsive image" :src="speclist.fanico.url">
+                            <input name="filekey" v-on:change="setBlogrollImageName($event)" class="upmask thumb_mask"
+                                   type="file"/>
+                            <input name="name" class="p_name hide" value="">
+                            <input type="submit" class="hide s_btn">
+                            <span class="errorInfo dre_left ml_10"></span>
+                        </form>
+                    </div>
+                    <p class="bg-warning  warn-box">点击选框替换</p>
+                </div>
+            </div>
+        </li>
+        <li class="clearfix">
+            <div class="left-part">
+                <div><h4>入口名称</h4></div>
+            </div>
+            <div class="left-part-2">
+                <input type="text" class="form-control" v-model="btitle">
+                <span class="errorInfo" v-if="formValidate.btitleErrorMsg">{{formValidate.btitleErrorMsg}}</span>
+            </div>
+        </li>
+        <li class="clearfix">
+            <div class="left-part">
+                <div><h4>垂类URL</h4></div>
+            </div>
+            <div class="left-part-2">
+                <input type="text" class="form-control" v-model="blink">
+                <span class="errorInfo" v-if="formValidate.blinkErrorMsg">{{formValidate.blinkErrorMsg}}</span>
+            </div>
+        </li>
+    </ul>
+</div>
+
+<ul>
+    <li>
+        <label for="agreement" class="charge left-part">
+            <input id="agreement" class="agreement" name="agreement" type="checkbox" title="必选">
+        </label>
+        <span class="left-part"><a href="#">我已阅读并同意《用户协议》和《直播守则》</a><span class="red">*</span></span>
+        <span class="errorInfo"></span>
+    </li>
+</ul>
+
+<div class="clearfix">
+    <button type="button" class="btn ">取消</button>
+    <button type="button" class="btn btn-primary submitLab" @click="submitCreate(event)">提交</button>
+</div>
+
+

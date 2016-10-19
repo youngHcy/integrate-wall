@@ -1,0 +1,64 @@
+<div class="h_title">
+    创建直播预告
+</div>
+<div class="prebox" id="orderUserInfo">
+    <div class="info-box clearfix">
+        <ul>
+            <li>
+                <div class="left-part">
+                    直播昵称
+                </div>
+                <div class="left-part" user-id={{userInfo.userid}}>{{userInfo.username}}</div>
+            </li>
+            <li>
+                <div class="left-part">
+                    直播账号
+                </div>
+                <div class="left-part" user-id={{userInfo.userid}}>{{userInfo.userid}}</div>
+
+            </li>
+            <li>
+                <div class="clearfix">
+                    <div class="left-part">
+                        预告素材 <span class="red">*</span>
+                    </div>
+                    <p class="file-info dre_left">支持MOV\PNG\JPG格式</p>
+                </div>
+                <div id="result unload-btn" class="preview clearfix">
+                    <form id="orderUserData" autocomplete="on">
+                        <input id="file_input" name="filekey" v-on:change="setBlogrollImageName2($event)" class="uploading" type="file"/>
+                        <img :src="">
+                        <span class="errorInfo" style="position: absolute;z-index: 2;
+            width:100px;left:250px;top:10px;"></span>
+                        <div class="getdataurl"></div>
+
+                        <input type="submit" class="hide s_btn">
+                    </form>
+
+                </div>
+
+                <p class="file-info dre_left p-left">图片尺寸645*828；200kb以内；视频20M以内</p>
+            </li>
+            <li>
+                <div class="left-part">直播标题<span class="red">*</span></div>
+                <input name="title" class="texts pleft" placeholder="字数不得超过15字" type="text"/>
+                <span class="errorInfo"></span>
+            </li>
+            <li>
+                <div class="form-group">
+                    <div for="dtp_input1" class="left-part control-label">直播时间<span class="red">*</span></div>
+                    <div class="input-group left-part date starttime form_datetime col-md-5"
+                         data-date-format="yyyy-mm-dd hh:ii" data-link-field="dtp_input1">
+                        <input class="form-control texts" name="starttime" size="16" type="text" value=""
+                               placeholder="选择日历插件" readonly>
+                        <span class="input-group-addon"><span class="glyphicon glyphicon-remove"></span></span>
+                        <span class="input-group-addon"><span class="glyphicon glyphicon-th"></span></span>
+                    </div>
+                    <span class="errorInfo"></span>
+                    <input type="hidden" class="texts" id="dtp_input1" value=""/><br/>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+</div>

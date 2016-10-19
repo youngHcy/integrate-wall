@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>糯米直播</title>
+</head>
+<body>
+<div style="display: none">
+    <img src="../static/nuomilogo.png" alt="百度糯米">
+    <p>下载百度糯米APP，更多精彩直播等着你！</p>
+</div>
+
+<component :is="getVc" keep-alive></component>
+
+<v-advertise></v-advertise>
+
+</body>
+</html>

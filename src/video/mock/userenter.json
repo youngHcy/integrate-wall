@@ -1,0 +1,42 @@
+{
+  "status": 0,
+  "data": {
+    "error_code": 0,
+    "host": {
+      "uid": "2500274914",
+      "name": "崔红磊",
+      "image": "https://ss0.bdstatic.com/7Ls0a8Sm1A5BphGlnYG/sys/portrait/item/e22ae5b494e7baa2e7a38a0795",
+      "type": 1,
+      "link": "bainuo://component?compid=ugc_personal&comppage=personal&userId=714190040",
+      "blink": "www.baidu.com"
+    },
+    "video": {
+      "cover": "../static/image/testshare.png",
+      "livetime": "1473216325",
+      "force_cover": "../static/image/testshare.png",
+      "force_url": "{\"file\":\"http:\\/\\/gifhua0gzy1egz43hxw.exp.bcevod.com\\/mda-gimfn1fx0t2qe7r3\\/mda-gimfn1fx0t2qe7r3.mp4\",\"cover\":\"http:\\/\\/gifhua0gzy1egz43hxw.exp.bcevod.com\\/mda-gimfn1fx0t2qe7r3\\/mda-gimfn1fx0t2qe7r3.jpg\"}",
+      "pull_url": "http://gc6pn1qt8yzswiinafk.vod.e-web.com.cn/mda-ghdiv1x0g5sbjjah/mda-ghdiv1x0g5sbjjah.m3u8",
+      "review_cover": "http:\\/\\/gifhua0gzy1egz43hxw.exp.bcevod.com\\/mda-gimfn1fx0t2qe7r3\\/mda-gimfn1fx0t2qe7r3.jpg",
+      "review_url": "{\"file\":\"http:\\/\\/gifhua0gzy1egz43hxw.exp.bcevod.com\\/mda-gimfn1fx0t2qe7r3\\/mda-gimfn1fx0t2qe7r3.mp4\",\"cover\":\"http:\\/\\/gifhua0gzy1egz43hxw.exp.bcevod.com\\/mda-gimfn1fx0t2qe7r3\\/mda-gimfn1fx0t2qe7r3.jpg\"}",
+      "title": "nuomi"
+    },
+    "im": {
+      "portal": [
+        "10.95.110.47:8230",
+        "10.95.110.47:8231"
+      ],
+      "im_id": "2500274914",
+      "uid": 2500274914,
+      "token": "1ZlaXJDdy1kbGw3d2xPdDhTaWpIZGhiY0NKWVRzMnExTmFDMExMeGZIVDR3djFYQVFBQUFBJCQAAAAAAAAAAAEAAADiKgeVtN667MDaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPg11lf4NdZXd",
+      "name": "崔红磊",
+      "image": "https://ss0.bdstatic.com/7Ls0a8Sm1A5BphGlnYG/sys/portrait/item/e22ab4debaecc0da0795",
+      "level": -1,
+      "authid": 714190040,
+      "utype": 1
+    },
+    "feedback": "0",
+    "subscribe": 1,
+    "timestamp": 1473672964,
+    "room_status": "2"
+  }
+}

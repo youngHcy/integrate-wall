@@ -1,0 +1,165 @@
+{
+  "status": 0,
+  "data": [
+    {
+      "id": 1,
+      "orientation": "横屏",
+      "liveId": "12345",
+      "hostName": "糯米电影",
+      "liveTitle": "直播名称直播名称",
+      "beginTime": "2015-02-22 09:00",
+      "isPersonalize": true,
+      "liveStatus": 1
+    },
+    {
+      "id": 2,
+      "orientation": "横屏",
+      "liveId": "12345",
+      "hostName": "糯米电影",
+      "liveTitle": "直播名称直播名称",
+      "beginTime": "2015-02-22 09:00",
+      "isPersonalize": false,
+      "liveStatus": 2
+    },
+    {
+      "id": 3,
+      "orientation": "横屏",
+      "liveId": "12345",
+      "hostName": "糯米电影",
+      "liveTitle": "直播名称直播名称",
+      "beginTime": "2015-02-22 09:00",
+      "isPersonalize": true,
+      "liveStatus": 3
+    },
+    {
+      "id": 4,
+      "orientation": "横屏",
+      "liveId": "12345",
+      "hostName": "糯米电影",
+      "liveTitle": "直播名称直播名称",
+      "beginTime": "2015-02-22 09:00",
+      "isPersonalize": true,
+      "liveStatus": 0
+    },
+    {
+      "id": 1,
+      "orientation": "横屏",
+      "liveId": "12345",
+      "hostName": "糯米电影",
+      "liveTitle": "直播名称直播名称",
+      "beginTime": "2015-02-22 09:00",
+      "isPersonalize": true,
+      "liveStatus": 1
+    },
+    {
+      "id": 2,
+      "orientation": "横屏",
+      "liveId": "12345",
+      "hostName": "糯米电影",
+      "liveTitle": "直播名称直播名称",
+      "beginTime": "2015-02-22 09:00",
+      "isPersonalize": false,
+      "liveStatus": 2
+    },
+    {
+      "id": 3,
+      "orientation": "横屏",
+      "liveId": "12345",
+      "hostName": "糯米电影",
+      "liveTitle": "直播名称直播名称",
+      "beginTime": "2015-02-22 09:00",
+      "isPersonalize": true,
+      "liveStatus": 3
+    },
+    {
+      "id": 4,
+      "orientation": "横屏",
+      "liveId": "12345",
+      "hostName": "糯米电影",
+      "liveTitle": "直播名称直播名称",
+      "beginTime": "2015-02-22 09:00",
+      "isPersonalize": true,
+      "liveStatus": 0
+    },
+    {
+      "id": 1,
+      "orientation": "横屏",
+      "liveId": "12345",
+      "hostName": "糯米电影",
+      "liveTitle": "直播名称直播名称",
+      "beginTime": "2015-02-22 09:00",
+      "isPersonalize": true,
+      "liveStatus": 1
+    },
+    {
+      "id": 2,
+      "orientation": "横屏",
+      "liveId": "12345",
+      "hostName": "糯米电影",
+      "liveTitle": "直播名称直播名称",
+      "beginTime": "2015-02-22 09:00",
+      "isPersonalize": false,
+      "liveStatus": 2
+    },
+    {
+      "id": 3,
+      "orientation": "横屏",
+      "liveId": "12345",
+      "hostName": "糯米电影",
+      "liveTitle": "直播名称直播名称",
+      "beginTime": "2015-02-22 09:00",
+      "isPersonalize": true,
+      "liveStatus": 3
+    },
+    {
+      "id": 4,
+      "orientation": "横屏",
+      "liveId": "12345",
+      "hostName": "糯米电影",
+      "liveTitle": "直播名称直播名称",
+      "beginTime": "2015-02-22 09:00",
+      "isPersonalize": true,
+      "liveStatus": 0
+    },
+    {
+      "id": 1,
+      "orientation": "横屏",
+      "liveId": "12345",
+      "hostName": "糯米电影",
+      "liveTitle": "直播名称直播名称",
+      "beginTime": "2015-02-22 09:00",
+      "isPersonalize": true,
+      "liveStatus": 1
+    },
+    {
+      "id": 2,
+      "orientation": "横屏",
+      "liveId": "12345",
+      "hostName": "糯米电影",
+      "liveTitle": "直播名称直播名称",
+      "beginTime": "2015-02-22 09:00",
+      "isPersonalize": false,
+      "liveStatus": 2
+    },
+    {
+      "id": 3,
+      "orientation": "横屏",
+      "liveId": "12345",
+      "hostName": "糯米电影",
+      "liveTitle": "直播名称直播名称",
+      "beginTime": "2015-02-22 09:00",
+      "isPersonalize": true,
+      "liveStatus": 3
+    },
+    {
+      "id": 4,
+      "orientation": "横屏",
+      "liveId": "12345",
+      "hostName": "糯米电影",
+      "liveTitle": "直播名称直播名称",
+      "beginTime": "2015-02-22 09:00",
+      "isPersonalize": true,
+      "liveStatus": 0
+    }
+  ]
+}

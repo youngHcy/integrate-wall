@@ -1,0 +1,30 @@
+{
+  "status": 0,
+  "data": {
+    "hostName": "糯小米",
+    "hostID": "xxxxxxx",
+    "liveID": "123456",
+    "liveTitle": "愤怒的小米糯米发布会直播",
+    "liveTime": "2016-09-09 12:00-14:00",
+    "watcherNumber": 3456,
+    "zanNumber": "22.2w",
+    "commentNumber": "22.2w",
+    "orientation": "横屏",
+    "isPersonalize": true,
+    "zanBtnPic": "../mock/mockpic/btn.png",
+    "zanQPPic": "../mock/mockpic/stars.png",
+    "liveWaterMark": "../mock/mockpic/watermark.png",
+    "viewerImage": "../mock/mockpic/viewerimg.png",
+    "chuileiPic": "../mock/mockpic/chuileipic.png",
+    "entryName": "饭圈",
+    "chuileiUrl": "http://www.baidu.com",
+    "levelPreview": "../mock/mockpic/level.png",
+    "verticalPreview": "../mock/mockpic/vertical.png",
+    "status": 1,
+    "applyState": {
+      "stateCode": 1,
+      "stateTitle": "待个性化配置审核",
+      "stateContent": "直播时间：2016-09-09 12:00"
+    }
+  }
+}

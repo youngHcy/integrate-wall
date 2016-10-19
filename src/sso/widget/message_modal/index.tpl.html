@@ -1,0 +1,80 @@
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">{{title}}</h4>
+            </div>
+            <div class="modal-body message-modal-container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <p>主播昵称： {{modalData.hostName}}</p>
+                    </div>
+                    <div class="col-md-4">
+                        <p>直播标题： {{modalData.liveTitle}}</p>
+                    </div>
+                    <div class="col-md-4" v-if="liveOver">
+                        <p>观看人次： {{modalData.watcherNumber}}</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <p>账号 ID ： {{modalData.hostID}}</p>
+                    </div>
+                    <div class="col-md-4">
+                        <p>开播日期： {{modalData.liveTime}}</p>
+                    </div>
+                    <div class="col-md-4" v-if="liveOver">
+                        <p>点赞人次： {{modalData.zanNumber}}</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <p>直播编号： {{modalData.liveID}}</p>
+                    </div>
+                    <div class="col-md-4">
+                        <p>屏幕方向： {{modalData.orientation}}</p>
+                    </div>
+                    <div class="col-md-4" v-if="liveOver">
+                        <p>评论数量： {{modalData.commentNumber}}</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-4">
+                        <p>个性化配置： {{modalData.isPersonalize===true?'是':'否'}}</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">点赞按钮：<img class="modal-pic" :src="modalData.zanBtnPic" alt="点赞按钮"></div>
+                    <div class="col-md-4">点赞气泡：<img class="modal-pic" :src="modalData.zanQPPic" alt="点赞气泡"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">直播水印：<img class="modal-pic" :src="modalData.liveWaterMark" alt="直播水印"></div>
+                    <div class="col-md-4">观众头像：<img class="modal-pic" :src="modalData.viewerImage" alt="观众头像"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">垂类入口：<img class="modal-pic" :src="modalData.chuileiPic" alt="直播水印"></div>
+                    <div class="col-md-2 last-word">入口名称： {{modalData.entryName}}</div>
+                    <div class="col-md-4 last-word">垂类url： {{modalData.chuileiUrl}}</div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-4">
+                        <h5>直播首页效果预览</h5>
+                        <img class="preview-pic" :src="modalData.verticalPreview" alt="垂直视图预览">
+                    </div>
+                    <div class="col-md-6">
+                        <h5>直播全屏页效果预览</h5>
+                        <img class="preview-pic" :src="modalData.levelPreview" alt="水平视图预览">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer message-modal-footer">
+                <slot>
+
+                </slot>
+            </div>
+        </div>
+    </div>
+</div>

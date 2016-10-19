@@ -1,0 +1,101 @@
+ <div id="orderUserInfo" >
+        <ul>
+            <li class="clearfix">
+                <div>直播编号*</div>
+                <select id="selectroom"  name="roomid" >
+                      <option  v-for="item in roomlist.list" value="{{item.roomid}}" >
+                  {{ item.title }}
+                </option>
+                       </select>
+                </select>
+                <span class="errorInfo"></span>
+               
+            </li>
+            <li class="clearfix">
+             <form id="buttonform" autocomplete="on" class="fixbox" >
+
+                <div>点赞按钮</div>
+                <img v-if="roomlist.roomdata.zanbutton" :src=roomlist.roomdata.zanbutton.url class="dre_left" width="30" height="30">
+                <input name="filekey" v-on:change="setBlogrollImageName($event)" class="upmask thumb_mask" type="file"/>
+                <button class="change_btn dre_left ml_10">替换</button>
+                <div class="getdataurl hide"></div>
+                <input  name="name" class="p_name hide" value="{{roomlist.roomdata.zanbutton.name}}"></input>
+                <span class="errorInfo dre_left ml_10"></span>
+                 <input type="submit" class="hide s_btn"></input>
+
+            </form>
+            
+            </li>
+            <li class="clearfix">
+                <div>‘赞’图形</div>
+                 <ul class="thumbsUpBox humbsUpBox clearfix" v-if="roomlist.roomdata.zanimg">
+                 
+                   <li   v-for="(index, item) in roomlist.roomdata.zanimg"  >   
+                          <form id="buttonform{{index}}" class="field fixbox"  autocomplete="on" >
+                             <img name="thumbsUp{{index}}" :src=item.url width="30" height="30"/>
+                          <input name="filekey" v-on:change="setBlogrollImageName($event)"  class="upmask headmask " type="file"/>
+                           <input  class="p_name hide" name="name" value="{{item.name}}"></input>
+                                <div class="getdataurl hide"></div>
+                               <input type="submit" class="hide s_btn"></input>
+                          </form>
+
+                   </li>
+                   
+                 </ul>
+
+                 <p class="red">点击图片替换</p>
+                 <span class="errorInfo"></span>
+
+            </li>
+            <li class="clearfix">
+                <div>观众头像</div>
+
+                 <ul class="headerbox humbsUpBox clearfix"  v-if="roomlist.roomdata.visitorimg" >
+                   <li v-for="(index, item) in roomlist.roomdata.visitorimg"  >
+                      <form id="headerform{{index}}"  class="field fixbox"  autocomplete="on" >
+                         
+                          <img name='filekey' :src="item.url" width="30" height="30"/>
+                          <input name="filekey" v-on:change="setBlogrollImageName($event)"  class="upmask headmask " type="file"/>
+                          <input  class="p_name hide"  name="name"  value="{{item.name}}"></input>
+                           <div class="getdataurl hide"></div>
+                             <input type="submit" class="hide s_btn"></input>
+                          
+
+
+                     </form>
+                   </li>
+                    
+                 </ul>
+                  <p class="red">点击图片替换</p>
+
+                <span class="errorInfo"></span>
+            </li>
+            
+
+             <li class="clearfix">
+               <div>漂亮水印</div>
+                <img class="waterimg"  :src=waterimg width="30" height="30"/>
+             <select id="waterform"  v-if="roomlist.roomdata.waterimg" name="roomid" >
+
+                      <option  v-for="(index ,item) in roomlist.roomdata.waterimg" 
+                      data-watername={{item.watername}} data-url={{item.url}} data-name={{item.name}}  value="{{item.titme}}" >
+                       {{ item.title }}
+                       </option>
+                       </select>
+                     </li>
+             
+             </li>
+  </ul>
+  <div>
+      
+
+       <div class="clearfix">
+
+         <span class="cancelButton">取消</span> 
+        <span class="submitLab">提交</span> 
+  
+       </div>
+
+
+  </div>
+</div>

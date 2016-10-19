@@ -1,0 +1,45 @@
+
+<p  v-if="historyList.pagelist.length<=0" class="text-primary">暂无数据</p>
+
+<table class="table table-bordered history-table" v-if="historyList.pagelist.length>0">
+   <thead>
+   	  <th>素材</th>
+   	  <th>直播编号</th>
+   	  <th>直播标题</th>
+   	  <th>开播时间</th>
+   	  <th>点赞按钮</th>
+   	  <th>点赞图形</th>
+   	  <th>点赞头像</th>
+   	  <th>直播水印</th>
+   	  <th>操作</th>
+   </thead>
+   <tbody v-el:historyList v-if="historyList&&historyList.pagelist.length>0" >
+      <tr v-for="(index, item) in historyList.pagelist">
+      	  
+      	 <td><img :src=item.fore.url></td>
+      	 <td>{{item.roomid}}</td>
+      	 <td>{{item.title}}</td>
+      	 <td>{{timeFormat(item.livetime)}}</td>
+      	 <td><img :src=item.zanbutton.url></td>
+      	 <td><img :src=item.zanimg[0].url></td>
+      	 <td><img :src=item.visitorimg[0].url ></td>
+      	 <td class="water-img-back"><img :src=item.waterimg.url ></td>
+         <td>
+			 <button v-on:click="getdata(item.roomid)" type="button" data-roomid={{item.roomid}} class="btn btn-info" data-toggle="modal" data-target=".bs-example-modal-lg">查看</button>
+			 <button class="btn btn-success btn-copy" data-clipboard-text="bainuo://live?roomId={{item.roomid}}" @click="copy">复制</button>
+		 </td>
+      </tr>
+   	  
+   </tbody>
+  
+    	
+    
+</table>
+
+
+
+
+
+
+
+
