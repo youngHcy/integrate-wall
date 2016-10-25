@@ -3,8 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0, minimum-scale=1.0,
+maximum-scale=1.0, user-scalable=no"/>
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <script>
+        var docuW = document.documentElement.clientWidth,
+                abc = docuW / 320;
+        document.getElementsByTagName('html')[0].style.fontSize = abc * 100 + 'px';
+    </script>
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" charset="utf-8" href="bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="reset.min.css">
+    <link rel="stylesheet" type="text/css" charset="utf-8" href="index.css">
 </head>
 <body>
-
+<div class="main" id="main">
+    <h1 id="title">广告</h1>
+    <div class="img"><img src="picture1.png" alt=""></div>
+    <div>
+       <div>
+    <input type="text" class="username" autocomplete="off"
+           placeholder="学员姓名" >
+       </div>
+        <div>
+    学员性别
+    <input type="radio" id="man" value="man" name="sex" class="sex">
+    <label for="man">男</label>
+    <input type="radio" id="woman" value="woman" name="sex" class="sex" >
+    <label for="woman">女</label>
+    <select name="age" id="age" class="age">
+            <option value="">学员年龄</option>
+        <option value="18-21">18-21</option>
+        <option value="22-25">22-25</option>
+        <option value="26-30">26-30</option>
+        <option value="31-35">31-35</option>
+    </select>
+        </div>
+    <div id="J_sex" data-sex="1">
+        <span data-id="1" class="active">男</span>
+        <span data-id="2">女</span>
+    </div>
+    <div>
+    <input type="tel" name="phone" class="tel" maxlength="11" autocomplete="off" placeholder="手机（此号码用于接收试读信息）">
+    </div>
+        <div>
+    <input type="email" name="email" id="email" class="email" autocomplete="off" placeholder="邮箱">
+        </div>
+        <div>
+    <input type="submit" value="提交" id="submit">
+        </div>
+        <p class="_gapTel"></p>
+    </div>
+</div>
 </body>
+<script src="zepto.min.js"></script>
+<script src="index.js"></script>
+
 </html>
