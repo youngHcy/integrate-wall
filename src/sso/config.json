@@ -1,9 +1,0 @@
-{
-  "configJson": {
-    "id": "video_sso",
-    "https": [
-      "se.nuomi.com",
-      "openapiu.nuomi.com"
-    ]
-  }
-}

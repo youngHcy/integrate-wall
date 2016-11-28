@@ -1,0 +1,22 @@
+<div>
+    <div class="img-demo">
+        <div>
+            <h3>子组件的HTML模板中引用图片：</h3>
+            <img src="../../static/image/angular.png">
+        </div>
+        <div>
+            <h3>子组件的CSS中引用图片：</h3>
+            <div class="image-css-demo">
+            </div>
+        </div>
+    </div>
+    <h3>
+        <span>Parent Vue Component:</span>
+        <span> {{ text }} </span>
+    </h3>
+    <div>
+        <!-- 子组件声明 -->
+        <vc-child :text.sync="text" :boy="person"></vc-child>
+
+    </div>
+</div>

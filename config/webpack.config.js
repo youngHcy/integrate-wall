@@ -51,7 +51,7 @@ var config = module.exports = function makeWebpackConfig() {
      */
     config.entry = {
         // 公共库
-        'lib/base':            [ 'zepto', 'DeferredBNJS' ],
+        'static/lib/base':            [ 'zepto', 'DeferredBNJS' ],
         // Entry入口文件
         //demo:              './src/demo/index.js',
     };
@@ -69,11 +69,11 @@ var config = module.exports = function makeWebpackConfig() {
         // Output path from the view of the page
         // Uses webpack-dev-server in development
         // SERVER模式：绝对路径；DEST模式HTTP路径的模式；file协议模式：绝对路径
-        publicPath: webpackEnv.SERVER ? '/' : (webpackEnv.dest ? (webpackEnv.addr + '/') : '../../../'),
+        publicPath: webpackEnv.SERVER ? '/' : (webpackEnv.dest ? (webpackEnv.addr + '/') : '../../'),
 
         // Filename for entry points
         // Only adds hash in build mode
-        filename: webpackEnv.SERVER ? 'static/[name].bundle.js' : 'static/[name].bundle.js',
+        filename: webpackEnv.SERVER ? '[name].bundle.js' : '[name].bundle.js',
 
         // Filename for non-entry points
         // Only adds hash in build mode
@@ -162,11 +162,11 @@ var config = module.exports = function makeWebpackConfig() {
                     /lib/
                 ]
             },
-            // 暴露模块为全局模块
-            {
-                test: require.resolve('jquery'),
-                loader: 'expose?$!expose?jQuery'
-            }
+            // 暴露为全局变量
+            //{
+            //    test:       require.resolve('jquery'),
+            //    loader:     'expose?$!expose?jQuery'
+            //}
         ]
     };
 
@@ -209,25 +209,25 @@ var config = module.exports = function makeWebpackConfig() {
         // 合并打包
         new webpack.optimize.CommonsChunkPlugin({
             // The order of this array matters
-            names:          'lib/base',
+            names:          'static/lib/base',
             minChunks:      Infinity
         }),
 
         // 绝对路径改为相对路径
-        new WebpackPluginSigma({
-            // 只有在file协议下访问才只将JS，CSS改为相对路径，图片仍未../../../的绝对路径
-            relativePath: !webpackEnv.SERVER && !webpackEnv.dest
-        }),
+        //new WebpackPluginSigma({
+        //    // 只有在file协议下访问才只将JS，CSS改为相对路径，图片仍未../../../的绝对路径
+        //    relativePath: !webpackEnv.SERVER && !webpackEnv.dest
+        //}),
 
         // Reference: https://github.com/webpack/extract-text-webpack-plugin
         // 找到require的css文件，生成单独的CSS文件：DEV不启用，PRODUCT启用
-        new ExtractTextPlugin('static/[name].bundle.css'),
+        new ExtractTextPlugin('[name].bundle.css'),
 
         // Reference: https://github.com/ampedandwired/html-webpack-plugin
         // DEMO：HTML与JS关联
         //new HtmlWebpackPlugin({
         //    template: './src/demo/index.html',
-        //    chunks: ['lib/base', 'demo/index'],
+        //    chunks: ['static/lib/base', 'demo/index'],
         //    filename: './demo/index.html',
         //    hash: true
         //})
@@ -312,7 +312,9 @@ var config = module.exports = function makeWebpackConfig() {
         ],
         // 公共类库
         alias: {
-            zepto:                 path.resolve('./lib/zepto')
+            zepto:                 path.resolve('./lib/zepto'),
+            // Used for Vue 2.0
+            'vue$':                'vue/dist/vue.js'
         }
     };
 

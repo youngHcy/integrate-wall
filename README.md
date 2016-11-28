@@ -1,8 +1,8 @@
 
 ## yo使用方式
 
-    安装generator：   npm install -g "@nfe/generator-sigma" --registry=http://nfe.baidu.com:8881
     安装yoeman：      npm install -g yo
+    安装generator：   npm install -g "@nfe/generator-sigma" --registry=http://nfe.baidu.com:8881
     使用generator:    yo "@nfe/sigma"
     发布generator:    npm publish --registry=http://nfe.baidu.com:8881
 
@@ -14,19 +14,34 @@
     npm run 查看可以执行的命令
 
     npm run server 运行本地开发环境，启动webpack-dev-server；默认为mk环境
-    npm run server -- --qa 运行测试开发环境，启动webpack-dev-server，为qa环境；与npm run qa -- -dest配合使用
-    npm run server -- --ol 运行线上开发环境，启动webpack-dev-server；为ol环境；与npm run ol -- -dest配合使用
+    npm run server -- --qa 运行测试开发环境，启动webpack-dev-server，为qa环境；与npm run qa -- --dest配合使用
+    npm run server -- --ol 运行线上开发环境，启动webpack-dev-server；为ol环境；与npm run ol -- --dest配合使用////配合打包使用，运行线上环境
 
     // Server启动端口默认为8257，如果想更改端口，如下即可；不过记得内网允许访问的端口在8000~9000之间
     npm run server -- --port 8258
 
     npm run qa 运行QA测试环境，打包文件生成在dist目录下
-    npm run qa -- --dest 运行QA测试环境，打包HTML页面请求了本机的JS，CSS，IMG资源
+    npm run qa 运行QA测试环境，打包HTML页面请求了本机的JS，CSS，IMG资源
     npm run qa -- --dest-cloud 运行QA测试环境，打包HTML页面请求了[QA云端](http://nfe.baidu.com:8040/webpack-dev-server)的JS，CSS，IMG资源
 
     npm run ol 运行ol线上环境，打包文件生成在dist目录下
-    npm run ol -- --dest 运行OL线上环境，打包HTML页面请求了本机的JS，CSS，IMG资源
+    npm run ol -- --dest 运行OL线上环境，打包HTML页面请求了本机的JS，CSS，IMG资源//打包
     npm run ol -- --dest-cloud 运行OL线上环境，打包HTML页面请求了[OL云端](http://nfe.baidu.com:8050/webpack-dev-server)的JS，CSS，IMG资源
+
+
+## 针对PHI集成的命令：
+
+    npm run dev 运行本地开发环境，启动webpack-dev-server；默认为mk环境
+    npm run dev -- -- -- --qa 运行测试开发环境，启动webpack-dev-server，为qa环境；与npm run qa -- --dest配合使用
+    npm run dev -- -- -- --ol 运行测试开发环境，启动webpack-dev-server，为ol环境；与npm run ol -- --dest配合使用
+
+
+    npm run build  默认运行ol线上环境，打包文件生成在dist目录下
+    npm run build -- qa 运行QA测试环境，打包文件生成在dist目录下
+    npm run build -- qa -- --dest 运行QA测试环境，打包HTML页面请求了本机的JS，CSS，IMG资源
+    npm run build -- ol 运行ol线上环境，打包文件生成在dist目录下
+    npm run build -- ol -- --dest 运行OL线上环境，打包HTML页面请求了本机的JS，CSS，IMG资源
+
 
 
 三种环境的存在是为了支持NA端项目的开发流程：
@@ -52,15 +67,15 @@ NFE私服npm服务器地址为：http://nfe.baidu.com:8882/；
  - ./dist 产出目录，npm run qa/ol会在这里生成打包内容；
  - ./dist/name_version.zip 打包生成的组件包；
  - ./dist/pack 产出打包内容的文件目录；
- - ./lib 依赖公共库：zepto等非npm开源库
+ - ./lib 依赖公共库：zepto等非webpack支持的npm开源库
  - ./src 所有源代码均在这里：组件，页面，文档等；
  - ./src/common/components 公用的技术组件；
- - ./src/xxx 具体的某一个项目，如：上门频道，充值；
+ - ./src/config.json 配置webpack扫描哪个文件夹以完成项目页面的加载（如无该文件，则扫描全部文件夹；如有则扫描"scanList"属性中描述的文件夹列表
+ - ./src/xxx 一个文件夹代表一个项目，如：上门频道，充值；）；
+ - ./src/xxx/config.json 配置最终生成的组件包config.json，如：id, https等（如无ID描述，则默认取package.json中描述的name）；
+ - ./src/xxx/mock/ajax 配置本地路由的JSON文件，与webpack.proxy.js配合使用；
  - ./src/doc/demo/index.html 工程示例页面；
  - ./src/doc/vcdoc/xxx/index.html 组件示例页面；
- - ./src/config.json 配置webpack扫描哪个文件夹以完成项目页面的加载；
- - ./src/xxx/config.json 配置最终生成的组件包config.json，如：id, https等；
- - ./src/xxx/mock/ajax 配置本地路由的JSON文件，与webpack.proxy.js配合使用；
 
 ## 项目工程
 
@@ -97,9 +112,9 @@ BNJS提供的API异步比较多，需要Promise化来提升复杂业务代码的
 
  - 组件文档化
 
-技术性组件要提高复用性、让别人快速上手，需要提供丰富的DEMO配置示例，目录放置在：./src/page/doc/vcdoc；
+技术性组件要提高复用性、让别人快速上手，需要提供丰富的DEMO配置示例，目录放置在：./src/doc/vcdoc；
 
- - 多业务工程（不推荐）
+ - 多业务工程
 
 多个业务工程使用相同的组件，但出于同一项目下，在./src/page下以不同的目录命名；
 
@@ -107,11 +122,9 @@ BNJS提供的API异步比较多，需要Promise化来提升复杂业务代码的
 
 组件包中的config.json可以在开发中配置，支持扩展；如：page中支持login，HTTPS等；
 
- - 开发、测试、线上环境的适配
+ - 开发环境（IP适配）
 
 在本地开发环境下，DeferredBNJS.http.post()的URL如果是localhost:8080的话，在糯米APP端访问会被替换为具体Server的IP地址，如：172.20.204.189:8080，避免报错或者具体IP写入代码中的囧境；
-
-开发者可以通过webpack.config.js中定义的DefinePlugin或者JS脚本的envMode来做灵活的取值；
 
  - 小Feature
 

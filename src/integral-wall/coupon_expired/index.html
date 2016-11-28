@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0, minimum-scale=1.0,
+maximum-scale=1.0, user-scalable=no"/>
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <script>
+        var docuW = document.documentElement.clientWidth,
+                abc = docuW / 320;
+        document.getElementsByTagName('html')[0].style.fontSize = abc * 100 + 'px';
+    </script>
+    <link rel="stylesheet" type="text/css" href="../../common/reset.min.css">
+    <!--<link rel="stylesheet" type="text/css" charset="utf-8" href="index.css">-->
+</head>
+<body>
+<div class="main" id="main">
+    <h1 id="title" class="title">广告</h1>
+    <div class="img"> <img src="../static/picture1.png"></div>
+    <div class="Form_D">
+        <div class="MyForm">
+            <div class="student_name">
+                <input type="text" name="username" class="username " autocomplete="off"
+                       placeholder="学员姓名" >
+
+            </div>
+            <div class="student_phone">
+                <input type="tel" name="phone" class="tel" maxlength="11" autocomplete="off" placeholder="手机号码">
+            </div>
+
+            <div class="_submit">
+                <button id="submit" class="for_submit">提交 </button>
+                <!--<div class="_gap">-->
+            </div>
+            <div class="_gap">
+                <p class="_gapNam"></p>
+                <p class="_gapTel "></p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<!--<script type="text/javascript" src="zepto.min.js"></script>-->
+<!--<script src="jquery-1.10.2.min.js"></script>-->
+<!--<script type="text/javascript" src="index.js"></script>-->
+</html>

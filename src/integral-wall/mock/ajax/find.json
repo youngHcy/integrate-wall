@@ -1,0 +1,26 @@
+{
+  "errno": 0,
+  "msg": "查询成功",
+  "data": [
+    {
+      "id": "1923543940",
+      "name": "抽奖-测试",
+      "money": "1000",
+      "threshold": 0,
+      "status": "0",
+      "userId": "2500282385",
+      "trackId": "9765",
+      "codeId": "",
+      "operatorId": "0",
+      "usedMoney": 0,
+      "useTerminal": "0",
+      "createTime": 1479192813000,
+      "useTime": 0,
+      "startTime": 1479139200000,
+      "expireTime": 1483199999000,
+      "voucherType": 1,
+      "payScope": "0",
+      "cashierType": 1
+    }
+  ]
+}

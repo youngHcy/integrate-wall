@@ -1,0 +1,56 @@
+{
+  "errno": 0,
+  "msg": "success",
+  "data": {
+    "pageData": {
+      "bannerList": [
+        {
+          "image":  "http://s0.nuomi.bdimg.com/lifeservice/baner2.jpg"
+        },
+        {
+          "image":  "http://s0.nuomi.bdimg.com/lifeservice/baner2.jpg"
+        },
+        {
+          "image":  "http://s0.nuomi.bdimg.com/lifeservice/baner2.jpg"
+        }
+      ],
+      "squareList": [
+        {
+          "title":  "汽车保养",
+          "image":  "http://s0.nuomi.bdimg.com/lifeservice/baner2.jpg"
+        },
+        {
+          "title":  "汽车保养",
+          "image":  "http://s0.nuomi.bdimg.com/lifeservice/baner2.jpg"
+        },
+        {
+          "title":  "汽车保养",
+          "image":  "http://s0.nuomi.bdimg.com/lifeservice/baner2.jpg"
+        },
+        {
+          "title":  "汽车保养",
+          "image":  "http://s0.nuomi.bdimg.com/lifeservice/baner2.jpg"
+        }
+      ],
+      "beancurdHash": {
+        "list": [
+          {
+            "title":  "汽车保养",
+            "subtitle": "糯米之家",
+            "image":  "http://s0.nuomi.bdimg.com/lifeservice/baner2.jpg"
+          },
+          {
+            "title":  "汽车保养",
+            "subtitle": "糯米之家",
+            "image":  "http://s0.nuomi.bdimg.com/lifeservice/baner2.jpg"
+          },
+          {
+            "title":  "汽车保养",
+            "subtitle": "糯米之家",
+            "image":  "http://s0.nuomi.bdimg.com/lifeservice/baner2.jpg"
+          }
+        ]
+      }
+    }
+  }
+}

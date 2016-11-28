@@ -1,0 +1,26 @@
+{
+  "errno": 0,
+  "msg": "\u67e5\u8be2\u6210\u529f",
+  "data": [
+    {
+      "id": "3523567499",
+      "name": "\u53ea\u80fd\u53d1\u5238",
+      "money": "10000",
+      "threshold": "100000",
+      "status": "0",
+      "userId": "12321",
+      "trackId": "9506",
+      "codeId": "",
+      "operatorId": "0",
+      "usedMoney": "0",
+      "useTerminal": "0",
+      "createTime": 1479182308000,
+      "useTime": 0,
+      "startTime": 1479182308000,
+      "expireTime": 1487822308000,
+      "voucherType": 1,
+      "payScope": "0",
+      "cashierType": 1
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+body {
+    background-image: url("http://joshuasortino.com/projects/css3-colored-buttons/images/background.png"), -webkit-gradient(linear, right top, left top, color-stop(0.5, rgb(48,48,48)), color-stop(0.5, rgb(240,240,240)) );
+    font-family: anivers, helvetica, Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.dark-header {
+    font-size: 32px;
+    color: #303030;
+    text-shadow: rgba(255,255,255,0.85) 1px 1px 0px;
+    line-height: 1em;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.light-header {
+    font-size: 32px;
+    color: #f0f0f0;
+    text-shadow: rgba(0,0,0,0.85) 1px 1px 0px;
+    line-height: 1em;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.light-buttons {
+    width: 40%;
+    padding-right: 10%;
+    float: left;
+}
+.dark-buttons {
+    width: 40%;
+    padding-left: 10%;
+    float: left;
+}
+/*****Buttons*****/
+.button {
+    width: 9.5em;
+    display: block;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ie-border-radius: 6px;
+    border-radius: 6px;
+    padding: .48em .8em;
+    text-shadow: rgba(0,0,0,.5) 0px -1px 0px;
+    font-size: 18px;
+    font-weight: 700;
+    -webkit-transition-property: background-color;
+    -webkit-transition-duration: .15s;
+    -webkit-transition-timing-function: ease-in-out;
+    cursor: pointer;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+.button:active {
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.button span {
+    vertical-align: middle;
+}
+.icon {
+    width: 26px;
+    height: 26px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    -ie-border-radius: 13px;
+    border-radius: 13px;
+    background: rgba(0,0,0,.3);
+    float: right;
+    -webkit-box-shadow: 0px 3px 0px 0px rgba(0,0,0,.2) inset, 0px 0px 0px 1px rgba(255,255,255,.2);
+    -moz-box-shadow: 0px 3px 0px 0px rgba(0,0,0,.2) inset, 0px 0px 0px 1px rgba(255,255,255,.2);
+    -ie-box-shadow: 0px 3px 0px 0px rgba(0,0,0,.2) inset, 0px 0px 0px 1px rgba(255,255,255,.2);
+    box-shadow: 0px 3px 0px 0px rgba(0,0,0,.2) inset, 0px 0px 0px 1px rgba(255,255,255,.2);
+}
+.arrow {
+    margin: 7px 0px 0 8px;
+    -webkit-border-style: solid;
+    -moz-border-style: solid;
+    -ie-border-style: solid;
+    border-style: solid;
+    border-width:6px 6px 6px 12px;
+    width: 0;
+    height: 0;
+}
+/********Light Background Colors********/

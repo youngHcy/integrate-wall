@@ -146,7 +146,7 @@ exports.hookWebpackConfig = function (webpackConfig, htmlDirList) {
 
             var entryObject = {
                 template:       entryPathHtml,
-                chunks:         ['lib/base', entryName],
+                chunks:         ['static/lib/base', entryName],
                 filename:       outputPathHtml,
                 hash:           true,
                 // 自定义的字段：标识依赖的JS文件
@@ -252,7 +252,7 @@ exports.fillWebpackConfig = function (webpackConfig, srcPath) {
 };
 
 /**
- * 读取配置 page/config.json
+ * 读取配置 src/config.json或者 src/xxx/config.json
  */
 exports.loadPageConfig = function (srcPath) {
 

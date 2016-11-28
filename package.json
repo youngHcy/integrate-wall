@@ -1,5 +1,5 @@
 {
-  "name": "videonew",
+  "name": "integral-wall-project",
   "version": "1.0.0",
   "description": "",
   "scripts": {
@@ -8,16 +8,18 @@
     "qa": "rimraf dist/pack && webpack --config config/webpack.config.js --bail --progress --profile",
     "ol": "rimraf dist/pack && webpack --config config/webpack.config.js --bail --progress --profile",
     "debug": "rimraf dist/pack && node-debug --no-preload ./node_modules/webpack/bin/webpack.js --config config/webpack.config.js --bail --progress --profile > output.json",
-    "test-watch": "karma start --auto-watch --no-single-run"
+    "test-watch": "karma start --auto-watch --no-single-run",
+    "dev": "npm run server",
+    "build": "node ./config/buildparse.js"
   },
-  "author": "diydyq",
+  "author": "yongqingdong",
   "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^6.0.3",
     "babel-core": "^6.2.1",
     "babel-loader": "^6.2.0",
     "babel-preset-es2015": "^6.1.18",
-    "babel-preset-stage-2": "^6.13.0",
+    "babel-preset-react": "^6.16.0",
     "blueimp-md5": "^2.3.0",
     "copy-webpack-plugin": "^1.1.1",
     "css-loader": "^0.23.0",
@@ -50,16 +52,10 @@
   },
   "dependencies": {
     "@nfe/DeferredBNJS": "^1.0.0",
-    "@nfe/vc-banner": "^1.0.3",
-    "@nfe/vc-base": "^1.0.1",
-    "@nfe/vue": "^1.0.26",
-    "bootstrap": "^3.3.7",
-    "clipboard": "^1.5.12",
+    "vue": "^2.0.0",
+    "expose-loader": "^0.7.1",
     "fastclick": "^1.0.6",
-    "hammerjs": "^2.0.8",
-    "jquery": "^3.1.0",
     "lodash": "^4.13.1",
-    "shelljs": "^0.7.0",
-    "vue-select": "^1.3.3"
+    "shelljs": "^0.7.0"
   }
 }

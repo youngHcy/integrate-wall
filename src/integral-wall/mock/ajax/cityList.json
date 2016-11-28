@@ -1,0 +1,237 @@
+{
+  "errno": 0,
+  "msg": "success",
+  "data": [
+    {
+      "city_code": "100000000",
+      "city_name": "北京市",
+      "status": "0",
+      "map_id": "3",
+      "pid": "0"
+    },
+    {
+      "city_code": "500000000",
+      "city_name": "天津市",
+      "status": "0",
+      "map_id": "14",
+      "pid": "0"
+    },
+    {
+      "city_code": "1800000000",
+      "city_name": "河北省",
+      "status": "0",
+      "map_id": "25",
+      "pid": "0"
+    },
+    {
+      "city_code": "2100000000",
+      "city_name": "山西省",
+      "status": "0",
+      "map_id": "10",
+      "pid": "0"
+    },
+    {
+      "city_code": "2200000000",
+      "city_name": "内蒙古自治区",
+      "status": "0",
+      "map_id": "22",
+      "pid": "0"
+    },
+    {
+      "city_code": "1300000000",
+      "city_name": "辽宁省",
+      "status": "0",
+      "map_id": "19",
+      "pid": "0"
+    },
+    {
+      "city_code": "2300000000",
+      "city_name": "吉林省",
+      "status": "0",
+      "map_id": "9",
+      "pid": "0"
+    },
+    {
+      "city_code": "1100000000",
+      "city_name": "黑龙江省",
+      "status": "0",
+      "map_id": "2",
+      "pid": "0"
+    },
+    {
+      "city_code": "200000000",
+      "city_name": "上海市",
+      "status": "0",
+      "map_id": "5",
+      "pid": "0"
+    },
+    {
+      "city_code": "700000000",
+      "city_name": "江苏省",
+      "status": "0",
+      "map_id": "18",
+      "pid": "0"
+    },
+    {
+      "city_code": "600000000",
+      "city_name": "浙江省",
+      "status": "0",
+      "map_id": "29",
+      "pid": "0"
+    },
+    {
+      "city_code": "1500000000",
+      "city_name": "安徽省",
+      "status": "0",
+      "map_id": "23",
+      "pid": "0"
+    },
+    {
+      "city_code": "1900000000",
+      "city_name": "福建省",
+      "status": "0",
+      "map_id": "16",
+      "pid": "0"
+    },
+    {
+      "city_code": "2400000000",
+      "city_name": "江西省",
+      "status": "0",
+      "map_id": "31",
+      "pid": "0"
+    },
+    {
+      "city_code": "1400000000",
+      "city_name": "山东省",
+      "status": "0",
+      "map_id": "8",
+      "pid": "0"
+    },
+    {
+      "city_code": "2000000000",
+      "city_name": "河南省",
+      "status": "0",
+      "map_id": "30",
+      "pid": "0"
+    },
+    {
+      "city_code": "400000000",
+      "city_name": "湖北省",
+      "status": "0",
+      "map_id": "15",
+      "pid": "0"
+    },
+    {
+      "city_code": "1200000000",
+      "city_name": "湖南省",
+      "status": "0",
+      "map_id": "26",
+      "pid": "0"
+    },
+    {
+      "city_code": "300000000",
+      "city_name": "广东省",
+      "status": "0",
+      "map_id": "7",
+      "pid": "0"
+    },
+    {
+      "city_code": "2500000000",
+      "city_name": "广西壮族自治区",
+      "status": "0",
+      "map_id": "17",
+      "pid": "0"
+    },
+    {
+      "city_code": "2600000000",
+      "city_name": "海南省",
+      "status": "0",
+      "map_id": "21",
+      "pid": "0"
+    },
+    {
+      "city_code": "900000000",
+      "city_name": "重庆市",
+      "status": "0",
+      "map_id": "4",
+      "pid": "0"
+    },
+    {
+      "city_code": "800000000",
+      "city_name": "四川省",
+      "status": "0",
+      "map_id": "32",
+      "pid": "0"
+    },
+    {
+      "city_code": "2700000000",
+      "city_name": "贵州省",
+      "status": "0",
+      "map_id": "24",
+      "pid": "0"
+    },
+    {
+      "city_code": "2800000000",
+      "city_name": "云南省",
+      "status": "0",
+      "map_id": "28",
+      "pid": "0"
+    },
+    {
+      "city_code": "2900000000",
+      "city_name": "西藏自治区",
+      "status": "0",
+      "map_id": "13",
+      "pid": "0"
+    },
+    {
+      "city_code": "1000000000",
+      "city_name": "陕西省",
+      "status": "0",
+      "map_id": "27",
+      "pid": "0"
+    },
+    {
+      "city_code": "3000000000",
+      "city_name": "甘肃省",
+      "status": "0",
+      "map_id": "6",
+      "pid": "0"
+    },
+    {
+      "city_code": "3100000000",
+      "city_name": "青海省",
+      "status": "0",
+      "map_id": "11",
+      "pid": "0"
+    },
+    {
+      "city_code": "3200000000",
+      "city_name": "宁夏回族自治区",
+      "status": "0",
+      "map_id": "20",
+      "pid": "0"
+    },
+    {
+      "city_code": "3300000000",
+      "city_name": "新疆维吾尔自治区",
+      "status": "0",
+      "map_id": "12",
+      "pid": "0"
+    },
+    {
+      "city_code": "3500000000",
+      "city_name": "香港特别行政区",
+      "status": "0",
+      "map_id": "2910",
+      "pid": "0"
+    },
+    {
+      "city_code": "3600000000",
+      "city_name": "澳门特别行政区",
+      "status": "0",
+      "map_id": "2909",
+      "pid": "0"
+    }
+  ]
+}

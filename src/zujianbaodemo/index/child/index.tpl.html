@@ -1,0 +1,15 @@
+<div>
+    <h3>
+        <span>Child Vue Component:</span>
+
+        <span> {{ text }} </span>
+        <input type="text" name="text" v-model="text">
+
+        <span> {{ $parent.text }} </span>
+        <input type="text" name="text" v-model="$parent.text">
+
+        <span> {{ boy.name }} </span>
+    </h3>
+
+    <h3>获取城市数据：{{ cityList.length }}</h3>
+</div>

@@ -1,0 +1,10 @@
+{
+  "errno": 0,
+  "msg": "success",
+  "data": {
+    "attr": "这是data返回的数据！",
+    "status":2,
+    "expireTime":"2016-12-14",
+    "price":12
+  }
+}

@@ -1,0 +1,1288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a7454048-b712-4fd1-9772-1d63de3923f8" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/integral-wall/coupon_used/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/integral-wall/home/reset.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/integral-wall/login/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/integral-wall/login/reset.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/integral-wall/mock/ajax/cityList.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/integral-wall/mock/ajax/fail.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/integral-wall/mock/ajax/succ.json" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/plugin/laydate-v1.1/demo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/plugin/laydate-v1.1/layDate官网.url" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/plugin/laydate-v1.1/laydate/laydate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/plugin/laydate-v1.1/laydate/need/laydate.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/plugin/laydate-v1.1/laydate/skins/dahong/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/plugin/laydate-v1.1/laydate/skins/dahong/laydate.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/plugin/laydate-v1.1/laydate/skins/default/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/plugin/laydate-v1.1/laydate/skins/default/laydate.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/plugin/laydate-v1.1/laydate/skins/molv/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/plugin/laydate-v1.1/laydate/skins/molv/laydate.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/plugin/laydate-v1.1/更新日志.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/config.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/config.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/config/pages.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/config/requests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/detail/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/detail/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/detail/index.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/history/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/history/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/history/index.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/home/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/home/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/home/index.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/judge/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/judge/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/judge/index.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/livehistory/livehistory.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/livehistory/livehistory.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/livehistory/livehistory.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/login/jump.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/login/jump.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/login/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/login/login.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/login/login.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/mock/ajax/applymessage.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/mock/ajax/getuserinfo.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/mock/ajax/history.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/mock/ajax/judgetable.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/mock/ajax/livehistorydetail.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/mock/ajax/loginmock.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/mock/ajax/room.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/mock/ajax/roomlist.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/mock/ajax/spc.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/mock/mockpic/btn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/mock/mockpic/chuileipic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/mock/mockpic/level.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/mock/mockpic/stars.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/mock/mockpic/vertical.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/mock/mockpic/viewerimg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/mock/mockpic/watermark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/pre/pre.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/pre/pre.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/pre/pre.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/special_apply/special_apply.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/special_apply/special_apply.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/special_apply/special_apply.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/event_bus/bus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/build/build.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/build/build_standalone.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/css/bootstrap-datetimepicker.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/css/bootstrap-datetimepicker.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/js/bootstrap-datetimepicker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/js/bootstrap-datetimepicker.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/js/locales/bootstrap-datetimepicker.ar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/js/locales/bootstrap-datetimepicker.az.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/js/locales/bootstrap-datetimepicker.bg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/js/locales/bootstrap-datetimepicker.bn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/js/locales/bootstrap-datetimepicker.ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/js/locales/bootstrap-datetimepicker.cs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/js/locales/bootstrap-datetimepicker.da.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/js/locales/bootstrap-datetimepicker.de.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/js/locales/bootstrap-datetimepicker.ee.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/js/locales/bootstrap-datetimepicker.el.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/js/locales/bootstrap-datetimepicker.es.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/js/locales/bootstrap-datetimepicker.fi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/js/locales/bootstrap-datetimepicker.fr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/js/locales/bootstrap-datetimepicker.he.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/js/locales/bootstrap-datetimepicker.hr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/js/locales/bootstrap-datetimepicker.hu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/js/locales/bootstrap-datetimepicker.hy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/js/locales/bootstrap-datetimepicker.id.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/js/locales/bootstrap-datetimepicker.is.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/js/locales/bootstrap-datetimepicker.it.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/js/locales/bootstrap-datetimepicker.ja.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/js/locales/bootstrap-datetimepicker.ka.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/js/locales/bootstrap-datetimepicker.ko.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/js/locales/bootstrap-datetimepicker.lt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/js/locales/bootstrap-datetimepicker.lv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/js/locales/bootstrap-datetimepicker.ms.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/js/locales/bootstrap-datetimepicker.nb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/js/locales/bootstrap-datetimepicker.nl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/js/locales/bootstrap-datetimepicker.no.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/js/locales/bootstrap-datetimepicker.pl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/js/locales/bootstrap-datetimepicker.pt-BR.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/js/locales/bootstrap-datetimepicker.pt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/js/locales/bootstrap-datetimepicker.ro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/js/locales/bootstrap-datetimepicker.rs-latin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/js/locales/bootstrap-datetimepicker.rs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/js/locales/bootstrap-datetimepicker.ru.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/js/locales/bootstrap-datetimepicker.sk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/js/locales/bootstrap-datetimepicker.sl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/js/locales/bootstrap-datetimepicker.sv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/js/locales/bootstrap-datetimepicker.sw.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/js/locales/bootstrap-datetimepicker.th.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/js/locales/bootstrap-datetimepicker.tr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/js/locales/bootstrap-datetimepicker.ua.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/js/locales/bootstrap-datetimepicker.uk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/js/locales/bootstrap-datetimepicker.zh-CN.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/js/locales/bootstrap-datetimepicker.zh-TW.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/less/datetimepicker.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/minify.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/sample in bootstrap v2/bootstrap/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/sample in bootstrap v2/bootstrap/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/sample in bootstrap v2/bootstrap/img/glyphicons-halflings-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/sample in bootstrap v2/bootstrap/img/glyphicons-halflings.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/sample in bootstrap v2/bootstrap/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/sample in bootstrap v2/bootstrap/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/sample in bootstrap v2/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/sample in bootstrap v2/jquery/jquery-1.8.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/sample in bootstrap v3/bootstrap/css/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/sample in bootstrap v3/bootstrap/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/sample in bootstrap v3/bootstrap/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/sample in bootstrap v3/bootstrap/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/sample in bootstrap v3/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/sample in bootstrap v3/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/sample in bootstrap v3/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/sample in bootstrap v3/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/sample in bootstrap v3/bootstrap/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/sample in bootstrap v3/bootstrap/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/sample in bootstrap v3/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/sample in bootstrap v3/jquery/jquery-1.8.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/screenshot/standard_day.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/screenshot/standard_day_meridian.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/screenshot/standard_decade.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/screenshot/standard_full.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/screenshot/standard_hour.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/screenshot/standard_hour_meridian.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/screenshot/standard_month.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/screenshot/standard_year.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/tests/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/tests/_coverage.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/tests/assets/coverage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/tests/assets/jquery-1.7.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/tests/assets/mock.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/tests/assets/qunit-logging.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/tests/assets/qunit.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/tests/assets/qunit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/tests/assets/utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/tests/run-qunit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/tests/suites/component.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/tests/suites/events.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/tests/suites/formats.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/tests/suites/inline.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/tests/suites/keyboard_navigation/2011.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/tests/suites/keyboard_navigation/2012.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/tests/suites/keyboard_navigation/all.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/tests/suites/mouse_navigation/2011.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/tests/suites/mouse_navigation/2012.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/tests/suites/mouse_navigation/all.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/tests/suites/options.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/tests/tests.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/datetimepicker/tests/tests.min.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/loginPart.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/js/util.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/static/util.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/apply_state/img/error.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/apply_state/img/success.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/apply_state/img/waiting.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/apply_state/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/apply_state/index.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/apply_state/index.tpl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/crop/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/crop/index.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/crop/index.tpl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/croppie/croppie.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/croppie/croppie.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/croppie/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/detail_dialog/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/detail_dialog/index.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/detail_dialog/index.tpl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/history_list/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/history_list/index.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/history_list/index.tpl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/history_nav/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/history_nav/index.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/history_nav/index.tpl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/judge_panel/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/judge_panel/index.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/judge_panel/index.tpl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/judge_table/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/judge_table/index.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/judge_table/index.tpl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/livehistory_table/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/livehistory_table/index.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/livehistory_table/index.tpl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/message_modal/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/message_modal/index.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/message_modal/index.tpl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/pagination/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/pagination/index.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/pagination/index.tpl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/pagination/page.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/preform/img/submit_web.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/preform/img/upload_web.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/preform/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/preform/index.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/preform/index.tpl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/search_filter/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/search_filter/index.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/search_filter/index.tpl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/slider/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/slider/index.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/slider/index.tpl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/spec_part/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/spec_part/index.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/spec_part/index.tpl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/specform/img/submit_web.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/specform/img/upload_web.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/specform/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/specform/index.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/specform/index.tpl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/toast/img/success.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/toast/img/warning.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/toast/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/toast/index.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/toast/index.tpl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/top/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/top/index.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sso/widget/top/index.tpl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/video/config.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/video/config/player.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/video/config/requests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/video/home/cyberplayer.flash.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/video/home/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/video/home/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/video/home/index.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/video/mock/pageview.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/video/mock/userenter.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/video/mock/videoconfig.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/video/static/1.srt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/video/static/close.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/video/static/cyberplayer.flash.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/video/static/cyberplayer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/video/static/image/network-error.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/video/static/image/share-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/video/static/image/testshare.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/video/static/nuomilogo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/video/view/back/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/video/view/back/index.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/video/view/back/index.tpl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/video/view/online/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/video/view/online/index.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/video/view/online/index.tpl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/video/view/over/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/video/view/over/index.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/video/view/over/index.tpl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/video/view/pre/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/video/view/pre/index.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/video/view/pre/index.tpl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/video/widget/advertise/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/video/widget/advertise/index.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/video/widget/advertise/index.tpl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/video/widget/callnative/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/video/widget/popup/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/video/widget/popup/index.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/video/widget/popup/index.tpl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/video/widget/share/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/video/widget/video/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/video/widget/video/video.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/video/widget/video/video.tpl.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.jshintrc" afterPath="$PROJECT_DIR$/.jshintrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/webpack.config.js" afterPath="$PROJECT_DIR$/config/webpack.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/webpack.pack.js" afterPath="$PROJECT_DIR$/config/webpack.pack.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/webpack.proxy.js" afterPath="$PROJECT_DIR$/config/webpack.proxy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/zepto.js" afterPath="$PROJECT_DIR$/lib/zepto.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/common.less" afterPath="$PROJECT_DIR$/src/common/common.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/plugin/croppie/croppie.css" afterPath="$PROJECT_DIR$/src/common/plugin/croppie/croppie.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/plugin/croppie/croppie.js" afterPath="$PROJECT_DIR$/src/common/plugin/croppie/croppie.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/plugin/croppie/croppie.min.js" afterPath="$PROJECT_DIR$/src/common/plugin/croppie/croppie.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/plugin/croppie/index.html" afterPath="$PROJECT_DIR$/src/common/plugin/croppie/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/plugin/flexible/flexible.js" afterPath="$PROJECT_DIR$/src/common/plugin/flexible/flexible.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/plugin/form.js" afterPath="$PROJECT_DIR$/src/common/plugin/form.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/plugin/messages_zh.js" afterPath="$PROJECT_DIR$/src/common/plugin/messages_zh.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/plugin/player/cyberplayer.js" afterPath="$PROJECT_DIR$/src/common/plugin/player/cyberplayer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/plugin/validate.js" afterPath="$PROJECT_DIR$/src/common/plugin/validate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/integral-wall/home/index.html" afterPath="$PROJECT_DIR$/src/integral-wall/home/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/integral-wall/home/index.js" afterPath="$PROJECT_DIR$/src/integral-wall/home/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/integral-wall/login/index.html" afterPath="$PROJECT_DIR$/src/integral-wall/login/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/integral-wall/login/index.js" afterPath="$PROJECT_DIR$/src/integral-wall/login/index.js" />
+    </list>
+    <ignored path="integral-wall-project.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="integral-wall-project" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/zujianbaodemo/index/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.tpl.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/zujianbaodemo/index/child/index.tpl.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/zujianbaodemo/index/child/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5925926">
+              <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/zujianbaodemo/index/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/integral-wall/home/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/integral-wall/coupon_expired/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reset.min.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/common/reset.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/common/common.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="67" column="2" selection-start-line="67" selection-start-column="2" selection-end-line="67" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/zujianbaodemo/index/index.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/zujianbaodemo/index/index.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package_json" />
+        <option value="tsconfig.json" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="D:/22/index.js" />
+        <option value="$PROJECT_DIR$/src/integral-wall/coupon_used/11111111111.html" />
+        <option value="$PROJECT_DIR$/src/integral-wall/coupon_used/2222222222.html" />
+        <option value="$PROJECT_DIR$/src/integral-wall/coupon_used/333333.html" />
+        <option value="$PROJECT_DIR$/src/integral-wall/coupon_used/44444.html" />
+        <option value="$PROJECT_DIR$/src/integral-wall/coupon_used/4444444.css" />
+        <option value="$PROJECT_DIR$/src/integral-wall/coupon_used/tsconfig.json" />
+        <option value="$PROJECT_DIR$/src/integral-wall/vue_practive/vye.js" />
+        <option value="$PROJECT_DIR$/src/integral-wall/coupon_used/55555555555.html" />
+        <option value="$USER_HOME$/Downloads/css3-colored-buttons-markup/index.html" />
+        <option value="$PROJECT_DIR$/src/integral-wall/coupon_used/666666666.css" />
+        <option value="$PROJECT_DIR$/src/integral-wall/coupon_used/888888.css" />
+        <option value="$USER_HOME$/Downloads/animate.min.css" />
+        <option value="$PROJECT_DIR$/src/integral-wall/login/zepto.min.js" />
+        <option value="$PROJECT_DIR$/src/integral-wall/coupon_used/inde.html" />
+        <option value="$PROJECT_DIR$/src/integral-wall/login/index.css" />
+        <option value="$PROJECT_DIR$/src/integral-wall/error/index.css" />
+        <option value="$PROJECT_DIR$/src/integral-wall/error/index.html" />
+        <option value="$PROJECT_DIR$/src/integral-wall/vue_practive/demo.css" />
+        <option value="$PROJECT_DIR$/src/integral-wall/vue_practive/vue.js" />
+        <option value="$PROJECT_DIR$/src/integral-wall/vue_practive/vue.html" />
+        <option value="$PROJECT_DIR$/src/integral-wall/login/index.html" />
+        <option value="E:/积分墙/11.23/index.js" />
+        <option value="E:/积分墙/11.23/index.html" />
+        <option value="E:/积分墙/11.23/login/coupon.html" />
+        <option value="E:/积分墙/11.23/login/coupon.js" />
+        <option value="E:/积分墙/11.23/login/coupon.css" />
+        <option value="E:/积分墙/11.23/error/error.html" />
+        <option value="$PROJECT_DIR$/src/integral-wall/login/index.js" />
+        <option value="E:/积分墙/11.24/index.css" />
+        <option value="E:/积分墙/11.24/index.html" />
+        <option value="E:/积分墙/11.24/index.js" />
+        <option value="$PROJECT_DIR$/src/integral-wall/home/index.css" />
+        <option value="$PROJECT_DIR$/src/integral-wall/home/index.js" />
+        <option value="E:/积分墙/11.24_2/index.css" />
+        <option value="E:/积分墙/11.24_2/index.html" />
+        <option value="E:/积分墙/11.24_2/index.js" />
+        <option value="$PROJECT_DIR$/dist/pack/integral-wall/login/index.bundle.js" />
+        <option value="$PROJECT_DIR$/dist/pack/integral-wall/home/index.bundle.js" />
+        <option value="$PROJECT_DIR$/dist/pack/integral-wall/home/index.html" />
+        <option value="$PROJECT_DIR$/dist/pack/integral-wall/vue_practive/vue.bundle.js" />
+        <option value="$PROJECT_DIR$/dist/pack/integral-wall/vue_practive/vue.html" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/dist/pack/integral-wall/coupon_used/inde.bundle.js" />
+        <option value="$PROJECT_DIR$/src/integral-wall/coupon_used/inde.js" />
+        <option value="$PROJECT_DIR$/src/integral-wall/coupon_expired/reset.min.css" />
+        <option value="$PROJECT_DIR$/src/integral-wall/home/index.html" />
+        <option value="$PROJECT_DIR$/src/integral-wall/coupon_expired/index.css" />
+        <option value="$PROJECT_DIR$/src/integral-wall/coupon_expired/index.html" />
+        <option value="$PROJECT_DIR$/src/integral-wall/coupon_expired/index.js" />
+        <option value="$PROJECT_DIR$/src/zujianbaodemo/index/child/index.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1362" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="integral-wall-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="integral-wall-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="integral-wall-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="integral-wall-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="integral-wall-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zujianbaodemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="integral-wall-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="integral-wall-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zujianbaodemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="index" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="integral-wall-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="integral-wall-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zujianbaodemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="index" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="child" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="integral-wall-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="integral-wall-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="integral-wall" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="integral-wall-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="integral-wall-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="integral-wall" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="integral-wall-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="integral-wall-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="integral-wall" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coupon_expired" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="integral-wall-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="integral-wall-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="integral-wall-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="integral-wall-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="integral-wall-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="integral-wall-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\integral-wall-project\src\common" />
+      <recent name="D:\integral-wall-project\src\integral-wall\home" />
+      <recent name="D:\integral-wall-project\src\integral-wall\login" />
+      <recent name="D:\integral-wall-project\src\integral-wall\coupon_used" />
+      <recent name="D:\integral-wall-project\src\integral-wall\login\styles" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\integral-wall-project\src\integral-wall\static" />
+      <recent name="D:\integral-wall-project\src" />
+      <recent name="D:\integral-wall-project\src\integral-wall\coupon_expired" />
+      <recent name="D:\integral-wall-project\src\integral-wall\error" />
+      <recent name="D:\integral-wall-project\src\integral-wall\home" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.index.bundle.js">
+    <configuration default="false" name="smsLogin.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="smsLogin.js" working-dir="E:/积分墙/HTML">
+      <method />
+    </configuration>
+    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/integral-wall-project/src/integral-wall/home/index.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="index.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="index.js" working-dir="$PROJECT_DIR$/src/zujianbaodemo/index/child">
+      <method />
+    </configuration>
+    <configuration default="false" name="index.bundle.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="index.bundle.js" working-dir="$PROJECT_DIR$/dist/pack/integral-wall/home">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.smsLogin.js" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.index.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.index.bundle.js" />
+    </list>
+    <recent_temporary>
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.index.bundle.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.index.js" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.smsLogin.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a7454048-b712-4fd1-9772-1d63de3923f8" name="Default" comment="" />
+      <created>1477623603535</created>
+      <option name="number" value="Default" />
+      <updated>1477623603535</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1362" height="728" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24697885" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.055464927" sideWeight="0.3549107" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.045677" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19765495" sideWeight="0.64508927" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998326" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39477977" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.055464927" sideWeight="0.3549107" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.045677" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19765495" sideWeight="0.64508927" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25377643" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39477977" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.tpl" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/integral-wall/vue_practive/demo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-30.76923">
+          <caret line="106" column="39" selection-start-line="106" selection-start-column="39" selection-end-line="106" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/integral-wall/vue_practive/vue.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.1025643">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/integral-wall/error/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-51.820515">
+          <caret line="77" column="0" selection-start-line="77" selection-start-column="4" selection-end-line="77" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/积分墙/11.23/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.230769">
+          <caret line="42" column="36" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/integral-wall/error/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.076923">
+          <caret line="71" column="19" selection-start-line="71" selection-start-column="19" selection-end-line="71" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/积分墙/11.23/error/error.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="39.51282">
+          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/积分墙/11.23/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="57" column="21" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/integral-wall/login/reset.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="17" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/分享50个CSS超炫丽button样式代码下载/32/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/integral-wall/login/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="76" column="44" selection-start-line="76" selection-start-column="44" selection-end-line="76" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/分享50个CSS超炫丽button样式代码下载/32/button.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/integral-wall/home/zepto.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="629" column="19" selection-start-line="629" selection-start-column="12" selection-end-line="629" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/integral-wall/home/reset.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/integral-wall/login/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/积分墙/11.24/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/积分墙/11.24/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="75" column="20" selection-start-line="75" selection-start-column="20" selection-end-line="75" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/积分墙/11.24_2/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="122" column="19" selection-start-line="122" selection-start-column="19" selection-end-line="122" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/积分墙/11.24/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="10" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/积分墙/11.24_2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/积分墙/11.24_2/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/integral-wall/login/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="175" column="21" selection-start-line="175" selection-start-column="21" selection-end-line="175" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-43.846153">
+          <caret line="57" column="24" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/integral-wall/vue_practive/vue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.5">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/pack/integral-wall/vue_practive/vue.bundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="9.642858">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/pack/integral-wall/vue_practive/vue.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.179487">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/pack/integral-wall/home/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.615385">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/buildparse.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="9.642858">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/webpack.env.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.571428">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.571428">
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/webpack.proxy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="32.142857">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/integral-wall/coupon_used/inde.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.5">
+          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/pack/integral-wall/coupon_used/inde.bundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/pack/integral-wall/login/index.bundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.142857">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/pack/integral-wall/home/index.bundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.357143">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/plugin/player/cyberplayer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="6.428571">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/integral-wall/home/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.6666665">
+          <caret line="17" column="80" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/integral-wall/home/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-40.0">
+          <caret line="71" column="10" selection-start-line="115" selection-start-column="3" selection-end-line="115" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/integral-wall/coupon_expired/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/integral-wall/coupon_expired/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.6923075">
+          <caret line="17" column="80" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/integral-wall/static/reset.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/integral-wall/home/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/common.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="67" column="2" selection-start-line="67" selection-start-column="2" selection-end-line="67" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/reset.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/integral-wall/coupon_expired/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zujianbaodemo/index/index.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zujianbaodemo/index/index.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zujianbaodemo/index/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zujianbaodemo/index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zujianbaodemo/index/child/index.tpl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zujianbaodemo/index/child/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5925926">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
