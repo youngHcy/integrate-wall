@@ -1,0 +1,239 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<!--<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,target-densitydpi=medium-dpi">-->
+	<meta name="viewport"
+	content="width=device-width,initial-scale=1.0, minimum-scale=1.0,
+	maximum-scale=1.0, user-scalable=no"/>
+<meta name="format-detection" content="telephone=no" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<link href="css/m_style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="css/toast.css">
+<link href="css/dialog.min.css" rel="stylesheet" type="text/css">
+<link href="css/mobile-select-area.css" rel="stylesheet" type="text/css">
+</head>
+<body class="bg">
+<header class="header">
+	<a href="" class="icon-back"></a>
+	<h2>泰康e享健康重大疾病保险</h2>
+</header>
+<section class="index-wrap">
+	<img src="images/banner.jpg">
+	<div class="formiframe">
+		<div class="statu1">
+			<div class="formarea">
+				<ul>
+					<li>
+						<span>性别：</span>
+						<label><input type="radio" name="sex" checked="" value="M"> 男</label>&nbsp;&nbsp;&nbsp;&nbsp;
+						<label><input type="radio" name="sex" value="F"> 女</label>
+					</li>
+					<li>
+						<span>出生日期：</span>
+						<div id="txt_date" readonly="readonly">请选择</div>
+						<span class="arr1"></span>
+					</li>
+					<li>
+						<span>保额：</span>
+						<select id="insurance">
+							<option selected="" value="10000000">10万</option>
+							<option value="20000000">20万</option>
+							<option value="30000000">30万</option>
+							<option value="40000000">40万</option>
+						</select>
+					</li>
+					<li>
+						<span>交费方式：</span>
+						<select id="payWay">
+							<option selected="" value="SP">趸交</option>
+						</select>
+					</li>
+					<li id="securityYear">
+						<span>保障期间：</span>
+						<label><input type="radio" name="time" value="Y30"> 30年&nbsp;&nbsp;&nbsp;&nbsp;</label>
+						<label><input type="radio" name="time" checked="" value="A75"> 至75周岁</label>
+					</li>
+					<li>
+						<span>联系方式：</span>
+						<input type="tel" id="mobile" placeholder="填对手机号，以便收礼哦">
+					</li>
+					<li>
+						<span>验证码：</span>
+						<input type="tel" class="inp1" id="code">
+						<input type="button" value="发送验证码" class="btn1" id="sendCode">
+					</li>
+				</ul>
+				<div class="tc">
+					<input type="button" value="快速测保费" class="btn2" id="btn-start">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="area1">
+		<h2><span>超全保障，你值得拥有</span></h2>
+		<div class="item">
+			<span class="ico ico1"></span>
+			<h3><a href="images/p70.pdf"><span class="t1">70种重疾</span></a> + <a href="images/p30.pdf"><span class="t2">30种轻症</span></a> + 身故</h3>
+		</div>
+		<div class="item">
+			<span class="ico ico2"></span>
+			<h3>6种大病多赔50%！最高可赔100万！</h3>
+		</div>
+		<div class="item">
+			<span class="ico ico3"></span>
+			<h3>没病返本！满期立返130%</h3>
+		</div>
+		<div class="item">
+			<span class="ico ico4"></span>
+			<h3>多重豁免，给孩子/配偶买更划算！</h3>
+		</div>
+		<div class="item">
+			<span class="ico ico5"></span>
+			<h3>附加高端医疗服务--看病不求人！</h3>
+		</div>
+	</div>
+</section>
+<section class="index-wrap1">
+	<img src="images/banner.jpg">
+	<div class="formiframe">
+		<h1>测算成功！恭喜您获得泰康100元意外险！</h1>
+		<div class="statu2">
+			<div class="formarea">
+				<div class="total" id="preium">
+					您应交保费：<span>￥<b></b></span>元
+				</div>
+				<div class="t1">
+					<table width="100%" border="0" cellspacing="0" cellpadding="0">
+						<tbody>
+						<tr>
+							<td>年龄：<span id="age"></span></td>
+							<td align="right">性别：<span id="gender"></span></td>
+						</tr>
+						<tr>
+							<td>保险期间：<span id="period"></span></td>
+							<td align="right">基本保额：<span id="amount"></span></td>
+						</tr>
+						<tr>
+							<td>缴费方式：<span id="payWay1"></span></td>
+							<td align="right">&nbsp;</td>
+						</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="t2">
+					<dl class="clearfix">
+						<dt>
+							重疾保险金
+						</dt>
+						<dd>
+							100%保额（<span id="money"></span>）
+						</dd>
+					</dl>
+					<dl class="clearfix">
+						<dt>
+							重疾康复金
+						</dt>
+						<dd>
+							10%保额（<span id="money1"></span>）
+						</dd>
+					</dl>
+					<dl class="clearfix">
+						<dt>
+							6中特大疾病保险金<small>(多赔)</small>
+						</dt>
+						<dd>
+							50%保额（<span id="money2"></span>）
+						</dd>
+					</dl>
+					<dl class="clearfix">
+						<dt>
+							轻症疾病保险金<small>(最多累计赔3次)</small>
+						</dt>
+						<dd>
+							90%保额（<span id="money3"></span>）
+						</dd>
+					</dl>
+					<dl class="clearfix">
+						<dt>
+							生存保险金
+						</dt>
+						<dd>
+							130%已交保费（<span id="money4"></span>）
+						</dd>
+					</dl>
+					<dl class="last clearfix">
+						<dt>
+							身故保险金
+						</dt>
+						<dd id="gt18">
+							100%保额（<span id="money5"></span>）
+						</dd>
+						<dd id="lt18">
+							若身故时未满18周岁，返回已交保费，若身故时已满18周岁，返100%保额（<span id="money6"></span>）
+						</dd>
+					</dl>
+				</div>
+				<div class="tc"><a href="http://m.tk.cn/product/wap/S20160001.html" target="_blank" class="btn-now op8">立即购买</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" target="_blank" class="btn-now op8">登录糯米领取优惠券</a></div>
+			</div>
+		</div>
+	</div>
+	<div class="intro">
+		<h2>活动规则</h2>
+		<ol>
+			<li>1、完成测算即送价值100元的意外险，含20万意外伤害及1.5万意外医疗保障，自激活日起，保障60天。</li>
+			<li>2、意外险激活有效期：截至2017年2月28日，逾期失效。</li>
+			<li>3、保险券将发送到您测算保费时预留的手机号上。</li>
+			<li>4、泰康在线对本次活动享有最终解释权。</li>
+			<li>5、如有问题，详询 4000095522</li>
+		</ol>
+	</div>
+</section>
+<script src="js/jquery1.7.1.js"></script>
+<!--<script src="js/zepto.min.js"></script>-->
+<script src="js/wap_common.js"></script>
+<script src="js/admaster-wap.js"></script>
+<script src="js/webCode.js"></script>
+<script src="js/dialog.js"></script>
+<script src="js/mobile-select-date.js"></script>
+<!--<script src="laydate/laydate.js"></script>-->
+<script src="index.js"></script>
+
+<script src=""></script>
+<script>
+	var $ = jQuery.noConflict();
+</script>
+<script>
+//$(function(){
+//	goBack();
+//	onBodyReady('H5','clue_H5_030','10月大促-重疾测算PC');
+//})
+</script>
+<script type="text/javascript">
+var _paiyuer = _paiyuer || [];
+_paiyuer.push(['i', 'fX-_l']);
+_paiyuer.push(['domain','t.paiyue.com']);
+(function(d) {
+var s = d.createElement('script');s.type = 'text/javascript';s.async = true;
+s.src = ('https:'===location.protocol?'https://f.paiyue.com':'http://f.py0.cc')+'/j/3/r.js';
+var e = d.body.getElementsByTagName('script')[0]; e.parentNode.insertBefore(s, e);
+})(document);
+</script>
+<noscript><img src="//t.paiyue.com/rtg.gif?i=fX-_l" style="display:none;"/></noscript>
+<script type="text/javascript">
+var _py = _py || [];
+_py.push(['a', '5u.6-.N1YnRK-peF7iBoS69BjLKX']);
+_py.push(['domain','stats.ipinyou.com']);
+_py.push(['e','']);
+-function(d) {
+	var s = d.createElement('script'),
+	e = d.body.getElementsByTagName('script')[0]; e.parentNode.insertBefore(s, e),
+	f = 'https:' == location.protocol;
+	s.src = (f ? 'https' : 'http') + '://'+(f?'fm.ipinyou.com':'fm.p0y.cn')+'/j/adv.js';
+}(document);
+</script>
+<noscript><img src="//stats.ipinyou.com/adv.gif?a=5u.6-.N1YnRK-peF7iBoS69BjLKX&e=" style="display:none;"/></noscript>
+</body>
+</html>
